@@ -6,7 +6,9 @@
   justify-content: center;
 }
 .l-header--one {
-  background-color: rgb(238, 211, 211);
+  background-color: #005e30;
+  color: #ffffff;
+  letter-spacing: 0.1rem;
   display: flex;
   align-self: stretch;
   justify-content: center;
@@ -78,7 +80,7 @@
 }
 
 html {
-  overflow: hidden;
+  overflow-x: hidden;
   background: #ffffff;
   color: #232323;
   font-family: Noto Sans JP;

@@ -8,7 +8,9 @@
     justify-content: center;
 
     &--one {
-        background-color: rgb(238, 211, 211);
+        background-color: vars.$Green;
+        color: vars.$White;
+        letter-spacing: vars.$lsFontM;
         display: flex;
         align-self: stretch;
         justify-content: center;
