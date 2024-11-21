@@ -35,7 +35,51 @@
         align-items: center;
         justify-content: flex-end;
         gap: vars.$gap30;
-    
+        .l-nav--menu {
+            display: flex;
+            flex-direction: row;
+            gap: vars.$gap30;
+            background-color: aqua;
+            li {
+                width: vars.$listwideHeader;
+                height: vars.$listwideHeader;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: vars.$gapListM;
+                .l-icon {
+                    width: vars.$size30;
+                    height: vars.$size30;
+                    position: relative;
+                    &--box {
+                        width: vars.$size30;
+                        height: vars.$size30;
+                        left: 0px;
+                        top: 0px;
+                        position: absolute;
+                        background-color: vars.$White;
+                    }
+                    img {
+                        width: vars.$size30;
+                        height: vars.$size30;
+                        position: absolute;
+                    }
+                }
+                .l-txt {
+                    align-self: stretch;
+                    height: vars.$size30;
+                    text-align: center;
+                    font-size: vars.$fontM;
+                    line-height: vars.$lhFontM;
+                    letter-spacing: vars.$lsFontM;
+                    word-wrap: break-word;
+                }
+            }
+            
+           
+
+        }
     }
 }
 

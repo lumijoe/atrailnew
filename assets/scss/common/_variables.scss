@@ -6,13 +6,20 @@ $testblue:rgb(156, 200, 246);
 
 
 // カラー
-$colorWhite: #ffffff;
+$White: #ffffff;
+$Black: #232323;
 
 // 文字サイズ
 $fontS: 10px;
+ 
+//font-size12,line-height1rem,letter-spacing0.1rem
 $fontM: 12px;
+$lhFontM:1rem;
+$lsFontM:0.1rem;
+
 $fontL: 14px;
 $fontLL: 18px;
+
 
 // padding
 $pdS:8px;
@@ -25,4 +32,12 @@ $headerTwo:88px;
 
 // gap
 $gap30:30px;
+$gap38:38px;
+
+// listiconimage
+$listwideHeader:60px;
+$gapListS: 4px;
+$gapListM: 16px;
+
+$size30:30px;
 

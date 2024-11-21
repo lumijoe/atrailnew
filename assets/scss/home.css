@@ -34,10 +34,53 @@
   justify-content: flex-end;
   gap: 30px;
 }
+.l-header .l-nav-wrapper .l-nav--menu {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  background-color: aqua;
+}
+.l-header .l-nav-wrapper .l-nav--menu li {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+.l-header .l-nav-wrapper .l-nav--menu li .l-icon {
+  width: 30px;
+  height: 30px;
+  position: relative;
+}
+.l-header .l-nav-wrapper .l-nav--menu li .l-icon--box {
+  width: 30px;
+  height: 30px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  background-color: #ffffff;
+}
+.l-header .l-nav-wrapper .l-nav--menu li .l-icon img {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+}
+.l-header .l-nav-wrapper .l-nav--menu li .l-txt {
+  align-self: stretch;
+  height: 30px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 1rem;
+  letter-spacing: 0.1rem;
+  word-wrap: break-word;
+}
 
 html {
   overflow: hidden;
   background: #ffffff;
+  color: #232323;
   font-family: Noto Sans JP;
   font-weight: 400;
   word-wrap: break-word;
