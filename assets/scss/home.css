@@ -34,7 +34,7 @@
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  gap: 30px;
+  gap: 48px;
 }
 .l-header .l-nav-wrapper .l-nav--menu {
   display: flex;
@@ -78,6 +78,26 @@
   letter-spacing: 0.1rem;
   word-wrap: break-word;
 }
+.l-header .l-nav-wrapper .l-nav--contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  align-self: stretch;
+  gap: 8px;
+  width: auto;
+}
+.l-header .l-nav-wrapper .l-nav--contact .l-txt {
+  font-size: 10px;
+  text-align: right;
+  word-wrap: break-word;
+  width: 100%;
+}
+.l-header .l-nav-wrapper .l-nav--contact .l-cta-wrapper--header {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
 
 html {
   overflow-x: hidden;
@@ -90,7 +110,32 @@ html {
   font-size: 14px;
 }
 
+p {
+  margin: 0;
+}
+
+ol, ul {
+  margin-bottom: 0;
+}
+
 .logo--header {
   display: inline-flex;
   flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+  color: #232323;
+}
+
+.btn-primary {
+  background-color: aqua;
+  color: #232323;
+  align-content: center;
+}
+
+.btn-primary:hover {
+  background-color: rgb(37, 155, 234);
+  color: #232323;
+  align-content: center;
 }/*# sourceMappingURL=home.css.map */

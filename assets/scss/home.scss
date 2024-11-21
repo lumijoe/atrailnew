@@ -12,8 +12,28 @@ html {
     text-wrap: nowrap;
     font-size: vars.$fontL;//14px
 }
+p {
+    margin: 0;
+}
+ol, ul {
+    margin-bottom: 0;
+}
 
 .logo--header {
     display: inline-flex;
     flex-direction: column;
+}
+a {
+    text-decoration: none;
+    color: vars.$Black;
+}
+.btn-primary {
+    background-color: aqua;
+    color: #232323;
+    align-content: center;
+}
+.btn-primary:hover {
+    background-color: rgb(37, 155, 234);
+    color: #232323;
+    align-content: center;
 }
