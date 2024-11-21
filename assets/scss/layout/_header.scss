@@ -9,8 +9,21 @@
 
     &--one {
         background-color: rgb(238, 211, 211);
+        display: flex;
         align-self: stretch;
+        justify-content: center;
+        align-items: center;
         height: vars.$headerOne;
-        font-size: $fontS;
+        font-size: vars.$fontS;
+        padding: vars.$pdS;
+        p {
+            font-size: vars.$fontS;
+        }
+    }
+    &--two {
+        background-color: aquamarine;
+        align-self: stretch;
+        height: vars.$headerTwo;
+        
     }
 }

@@ -7,13 +7,30 @@
 }
 .l-header--one {
   background-color: rgb(238, 211, 211);
+  display: flex;
   align-self: stretch;
+  justify-content: center;
+  align-items: center;
   height: 30px;
+  font-size: 10px;
+  padding: 8px;
+}
+.l-header--one p {
+  font-size: 10px;
+}
+.l-header--two {
+  background-color: aquamarine;
+  align-self: stretch;
+  height: 88px;
 }
 
 body {
   overflow: hidden;
   background: #ffffff;
+  font-family: Noto Sans JP;
+  font-weight: 400;
+  word-wrap: break-word;
+  text-wrap: nowrap;
 }
 
 p {

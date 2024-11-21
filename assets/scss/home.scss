@@ -1,10 +1,14 @@
 @charset "UTF-8";
 @use "../scss/layout/header";
-@use "../scss/common/variables" as var;
+@use "../scss/common/variables" as vars;
 // 共通
 body {
     overflow: hidden;
-    background: var.$colorWhite;
+    background: vars.$colorWhite;
+    font-family: Noto Sans JP;
+    font-weight: 400;
+    word-wrap: break-word;
+    text-wrap: nowrap;
 }
 
 p{
