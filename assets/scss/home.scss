@@ -28,12 +28,12 @@ a {
     color: vars.$Black;
 }
 .btn-primary {
-    background-color: aqua;
-    color: #232323;
+    background-color: aqua!important;
+    color: #232323!important;
     align-content: center;
 }
 .btn-primary:hover {
-    background-color: rgb(37, 155, 234);
-    color: #232323;
+    background-color: rgb(37, 155, 234)!important;
+    color: #232323!important;
     align-content: center;
 }
