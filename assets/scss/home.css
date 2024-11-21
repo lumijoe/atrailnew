@@ -19,20 +19,33 @@
   font-size: 10px;
 }
 .l-header--two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: aquamarine;
   align-self: stretch;
   height: 88px;
+  padding: 0 25%;
+  gap: 146px;
+}
+.l-header .l-nav-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 30px;
 }
 
-body {
+html {
   overflow: hidden;
   background: #ffffff;
   font-family: Noto Sans JP;
   font-weight: 400;
   word-wrap: break-word;
   text-wrap: nowrap;
+  font-size: 14px;
 }
 
-p {
-  font-size: 14px;
+.logo--header {
+  display: inline-flex;
+  flex-direction: column;
 }/*# sourceMappingURL=home.css.map */

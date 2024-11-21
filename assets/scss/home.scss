@@ -2,15 +2,17 @@
 @use "../scss/layout/header";
 @use "../scss/common/variables" as vars;
 // 共通
-body {
+html {
     overflow: hidden;
     background: vars.$colorWhite;
     font-family: Noto Sans JP;
     font-weight: 400;
     word-wrap: break-word;
     text-wrap: nowrap;
+    font-size: vars.$fontL;//14px
 }
 
-p{
-    font-size: 14px;
+.logo--header {
+    display: inline-flex;
+    flex-direction: column;
 }

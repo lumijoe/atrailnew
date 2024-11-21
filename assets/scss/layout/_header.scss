@@ -21,9 +21,21 @@
         }
     }
     &--two {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         background-color: aquamarine;
         align-self: stretch;
         height: vars.$headerTwo;
-        
+        padding: 0 vars.$pdL;
+        gap: 146px;
+    }
+    .l-nav-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        gap: vars.$gap30;
+    
     }
 }
+
