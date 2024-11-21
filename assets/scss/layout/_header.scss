@@ -1,7 +1,16 @@
+@use "../common/variables" as vars;
+
 .l-header {
     background-color: aqua;
-    height: 118px;
+    height: calc(#{vars.$headerOne} + #{vars.$headerTwo});
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+    &--one {
+        background-color: rgb(238, 211, 211);
+        align-self: stretch;
+        height: vars.$headerOne;
+        font-size: $fontS;
+    }
 }

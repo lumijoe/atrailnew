@@ -1,9 +1,10 @@
 @charset "UTF-8";
 @use "../scss/layout/header";
+@use "../scss/common/variables" as var;
 // 共通
 body {
     overflow: hidden;
-    background: white;
+    background: var.$colorWhite;
 }
 
 p{

@@ -1,14 +1,19 @@
 .l-header {
   background-color: aqua;
-  height: 118px;
+  height: calc(30px + 88px);
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
+.l-header--one {
+  background-color: rgb(238, 211, 211);
+  align-self: stretch;
+  height: 30px;
+}
 
 body {
   overflow: hidden;
-  background: white;
+  background: #ffffff;
 }
 
 p {
