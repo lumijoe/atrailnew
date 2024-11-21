@@ -7,3 +7,11 @@
 img src="https://via.placeholder.com/253x45"
 
 ## Bootstrap でカスタムする
+
+## Git 通信パケットが大きすぎて push が失敗する時
+
+3. 送信パケットサイズの問題を確認
+   送信パケットが大きすぎて git push が失敗している場合、以下を試す
+
+git config --global http.postBuffer 524288000
+git push origin main
