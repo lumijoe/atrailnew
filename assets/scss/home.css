@@ -1,0 +1,16 @@
+.l-header {
+  background-color: aqua;
+  height: 118px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+body {
+  overflow: hidden;
+  background: white;
+}
+
+p {
+  font-size: 14px;
+}/*# sourceMappingURL=home.css.map */

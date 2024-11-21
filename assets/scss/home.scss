@@ -1,0 +1,11 @@
+@charset "UTF-8";
+@use "../scss/layout/header";
+// 共通
+body {
+    overflow: hidden;
+    background: white;
+}
+
+p{
+    font-size: 14px;
+}
