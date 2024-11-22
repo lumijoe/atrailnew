@@ -107,6 +107,7 @@
 .l-service .l-nav-wrapper {
   display: flex;
   flex-direction: row;
+  gap: 30px;
 }
 
 html {
@@ -126,6 +127,7 @@ p {
 
 ol, ul {
   margin-bottom: 0;
+  list-style-type: none;
 }
 
 .logo--header {
