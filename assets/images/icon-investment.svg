@@ -1,0 +1,10 @@
+<svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="icon_investment">
+<mask id="mask0_41_440" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="60" height="60">
+<rect id="Bounding box" x="0.5" y="0.5" width="59" height="59" fill="#D9D9D9" stroke="#1C1B1F"/>
+</mask>
+<g mask="url(#mask0_41_440)">
+<path id="home_work" d="M44.2 22.6338H47.2947V19.5915H44.2V22.6338ZM44.2 32.5211H47.2947V29.4789H44.2V32.5211ZM44.2 42.4084H47.2947V39.3662H44.2V42.4084ZM36.9789 49V47.7324H52.7105V14.2676H27.4368V20.4789L26.1474 19.5915V13H54V49H36.9789ZM5 49V29.6056L18.6684 19.8451L32.3368 29.6056V49H22.6658V38.4789H14.6711V49H5ZM6.28947 47.7324H13.3816V37.2113H23.9553V47.7324H31.0474V30.2394L18.6684 21.5563L6.28947 30.2394V47.7324Z" fill="#1C1B1F"/>
+</g>
+</g>
+</svg>
