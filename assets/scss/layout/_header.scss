@@ -1,7 +1,7 @@
 @use "../common/variables" as vars;
 
 .l-header {
-    background-color: aqua;
+    // background-color: aqua;
     height: calc(#{vars.$headerOne} + #{vars.$headerTwo});
     display: flex;
     flex-direction: column;
@@ -26,7 +26,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: aquamarine;
+        // background-color: aquamarine;
         align-self: stretch;
         height: vars.$headerTwo;
         padding: 0 vars.$pdL;
@@ -40,10 +40,11 @@
         .l-nav--menu {
             display: flex;
             flex-direction: row;
-            gap: vars.$gap30;
-            background-color: aqua;
+            gap: vars.$gap38;
+            // background-color: aqua;
             li {
-                width: vars.$listwideHeader;
+                // width: vars.$listwideHeader;
+                width: auto;
                 height: vars.$listwideHeader;
                 display: flex;
                 flex-direction: column;
@@ -51,31 +52,35 @@
                 align-items: center;
                 gap: vars.$gapListM;
                 .l-icon {
-                    width: vars.$size30;
-                    height: vars.$size30;
+                    width: vars.$size38;
+                    height: vars.$size38;
                     position: relative;
                     &--box {
-                        width: vars.$size30;
-                        height: vars.$size30;
+                        width: vars.$size38;
+                        height: vars.$size38;
                         left: 0px;
                         top: 0px;
                         position: absolute;
                         background-color: vars.$White;
                     }
                     img {
-                        width: vars.$size30;
-                        height: vars.$size30;
+                        width: vars.$size38;
+                        height: vars.$size38;
                         position: absolute;
+                        color: vars.$Green;
                     }
                 }
                 .l-txt {
                     align-self: stretch;
                     height: vars.$size30;
                     text-align: center;
-                    font-size: vars.$fontM;
+                    // font-size: vars.$fontM;
                     line-height: vars.$lhFontM;
                     letter-spacing: vars.$lsFontM;
                     word-wrap: break-word;
+                    font-weight: bold;
+                    color: vars.$Green;
+                    padding-top: vars.$pdSS;
                 }
             }
         }
@@ -99,18 +104,6 @@
                 gap: vars.$gap8;
             }
         }
-    }
-}
-.l-service {
-    width: 100%;
-    max-height: vars.$service;
-    background-color: antiquewhite;
-    .l-nav-wrapper {
-        display: flex;
-        flex-direction: row;
-        gap: vars.$gap30;
-
-
     }
 }
 
