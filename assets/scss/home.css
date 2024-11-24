@@ -21,11 +21,11 @@
 }
 .l-header--two {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   align-self: stretch;
   height: 88px;
-  padding: 0 25%;
+  padding: 0 2%;
   gap: 146px;
 }
 .l-header .l-nav-wrapper {
@@ -74,7 +74,7 @@
   line-height: 1rem;
   letter-spacing: 0.1rem;
   word-wrap: break-word;
-  font-weight: bold;
+  font-weight: 590;
   color: #005e30;
   padding-top: 4px;
 }

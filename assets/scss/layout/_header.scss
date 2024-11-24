@@ -24,12 +24,12 @@
     }
     &--two {
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
         // background-color: aquamarine;
         align-self: stretch;
         height: vars.$headerTwo;
-        padding: 0 vars.$pdL;
+        padding: 0 vars.$pdM;
         gap: 146px;
     }
     .l-nav-wrapper {
@@ -78,7 +78,7 @@
                     line-height: vars.$lhFontM;
                     letter-spacing: vars.$lsFontM;
                     word-wrap: break-word;
-                    font-weight: bold;
+                    font-weight: 590;
                     color: vars.$Green;
                     padding-top: vars.$pdSS;
                 }
